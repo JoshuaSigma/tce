@@ -7,7 +7,7 @@ with st.sidebar:
         st.empty()
 
     st.subheader('Natural Language Processing')
-    st.write("Text Classification (Emotion)")
+    st.write("[Text Classification (Emotion)](https://joshuasigma-tce-streamlit-app-0j7jjl.streamlit.app/)")
     st.empty()
     st.subheader("Imaging")
     st.write("[Fast Style Transfer](https://joshuasigma-fast-image-style-transfer-app-23kl7l.streamlit.app/)")
@@ -18,12 +18,12 @@ st.text('Joshua Patterson  |  March 18, 2023')
 st.image('https://i.ibb.co/025LsCj/bert-img-google.jpg', caption="Jochen Hartmann, 'Emotion English DistilRoBERTa-base'. https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/, 2022.")
 
 with st.container():
-    st.write("Text classification is important in many applications these days. We can utitlize a model from HuggingFace to perform this right here in the browser. "
+    st.write("Text classification is important in many applications these days. We can utitlize a model from HuggingFace, based off of Google's popular BERT design, to perform this. "
              "Using the transformers package and a version of BERT, we can perform emotion classification on text with minimal code.")
 
 with st.container():
     st.subheader("The pretuned BERT model")
-    st.write('The model and pipeline we are using here are made possible by HuggingFace. "Emotion English DistilRoBERTa-base" was trained using Twitter, Reddit, student reports and TV dialogue, '
+    st.write('The model and pipeline are already setup by HuggingFace. "Emotion English DistilRoBERTa-base," the name of the model, was trained using Twitter, Reddit, student reports and TV dialogue, '
              'You can find it [here](https://huggingface.co/j-hartmann/emotion-english-distilroberta-base). It has seven emotions as labels. Anger, disgust, fear, joy, neutral, sadness and surprise.')
 
 with st.container():
